@@ -1,0 +1,63 @@
+.cep-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cep-button {
+  padding: 12px;
+  font-size: 18px;
+  background: #0080ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cep-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cep-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cep-input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #777;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.cep-button:hover {
+  background: #005fcc;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.result-box {
+  margin-top: 20px;
+  background: #f2f2f2;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+@media (max-width: 500px) {
+  .cep-container {
+    padding: 10px;
+  }
+
+  .cep-title {
+    font-size: 20px;
+  }
+}
